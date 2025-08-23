@@ -17,7 +17,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
 </head>
 
-<body>
+<body class="bg-[#F4F5F7] flex flex-col justify-center items-center h-screen">
+
+    <div class="h-[150px] w-[320px] bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center">
+        <img src="assets/Group.png" alt="">
+    </div>
+    <form class="max-w-[370px] bg-white rounded-2xl p-8">
+        <div>
+            <label for="" class="font-semibold">Mobile Number</label>
+            <input type="text" placeholder="Enter your number"
+                class="input border-0 focus:outline-0 bg-[#F4F5F7] mt-3 h-auto py-4 px-5 text-base rounded-4xl"
+                id="mobile-number" />
+        </div>
+        <div class="mt-4">
+            <label for="" class="font-semibold">4 Digit Pin</label>
+            <input type="text" placeholder="Enter 4 Digit Pin"
+                class="input border-0 focus:outline-0 bg-[#F4F5F7] mt-3 h-auto py-4 px-5 text-base rounded-4xl"
+                id="pin-number" />
+        </div>
+        <button
+            class="btn mt-5 py-4 h-auto w-full rounded-4xl text-base bg-[#0874F2] hover:bg-[#0066da] duration-300 text-white"
+            id="loginButton">Login</button>
+    </form>
 
 </body>
 
